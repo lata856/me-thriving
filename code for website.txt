@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Your Name] – Integrative Health Practitioner</title>
+<style>
+  /* Reset & Basic Styles */
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica', Arial, sans-serif; }
+  body { line-height: 1.6; color: #333; background-color: #f9f9f9; }
+  a { text-decoration: none; color: #0077cc; }
+  img { max-width: 100%; height: auto; }
+
+  /* Container */
+  .container { width: 90%; max-width: 1100px; margin: auto; }
+
+  /* Header/Hero */
+  header { background-color: #e0f0f8; padding: 80px 0; text-align: center; }
+  header h1 { font-size: 2.8em; color: #004466; margin-bottom: 10px; }
+  header p { font-size: 1.2em; margin-bottom: 20px; color: #006699; }
+  .cta-button { background-color: #0077cc; color: #fff; padding: 12px 30px; border-radius: 5px; font-weight: bold; transition: 0.3s; }
+  .cta-button:hover { background-color: #005f99; }
+
+  /* Section Styles */
+  section { padding: 60px 0; }
+  h2 { text-align: center; color: #004466; font-size: 2em; margin-bottom: 40px; }
+  .cards { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .card { background: #fff; padding: 30px; flex: 1 1 250px; max-width: 300px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+  .card h3 { margin-bottom: 15px; color: #0077cc; }
+  .card p { font-size: 0.95em; color: #555; }
+
+  /* Contact Form */
+  form { background: #fff; padding: 30px; border-radius: 10px; max-width: 600px; margin: auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  form label { display: block; margin-bottom: 5px; font-weight: bold; color: #004466; }
+  form input, form textarea { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; }
+  form button { background-color: #0077cc; color: #fff; padding: 12px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+  form button:hover { background-color: #005f99; }
+
+  /* Footer */
+  footer { text-align: center; padding: 30px 0; background: #004466; color: #fff; font-size: 0.9em; }
+  footer a { color: #fff; margin: 0 5px; }
+  
+  /* Responsive */
+  @media(max-width: 768px){ .cards { flex-direction: column; align-items: center; } }
+</style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<header>
+  <div class="container">
+    <h1>[Your Name], RN</h1>
+    <p>25 years of clinical nursing experience | Integrative Health Practitioner | Functional Medicine, Breathwork & Meditation</p>
+    <a href="#contact" class="cta-button">Book a Consultation</a>
+  </div>
+</header>
+
+<!-- How I Work -->
+<section id="how-i-work">
+  <div class="container">
+    <h2>How I Work</h2>
+    <p style="text-align:center; max-width:700px; margin: auto; color:#555;">
+      I combine decades of clinical nursing experience with training in functional medicine, breathwork, and meditation to guide clients toward optimal health. Each plan is personalized, practical, and rooted in science.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3>Nursing & Case Management</h3>
+        <p>Leveraging 25 years of clinical experience to coordinate care and provide expert guidance for complex health challenges.</p>
+      </div>
+      <div class="card">
+        <h3>Functional Medicine</h3>
+        <p>Using lab-supported, root-cause strategies to optimize nutrition, lifestyle, and overall wellness.</p>
+      </div>
+      <div class="card">
+        <h3>Breathwork & Meditation</h3>
+        <p>Practical mind-body techniques to reduce stress, enhance resilience, and improve mental clarity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Functional Health Consultations</h3>
+        <p>Personalized coaching based on lab data and lifestyle analysis to optimize your health journey.</p>
+      </div>
+      <div class="card">
+        <h3>Breathwork & Meditation Coaching</h3>
+        <p>Guided sessions to manage stress, improve sleep, and increase energy and focus.</p>
+      </div>
+      <div class="card">
+        <h3>Case Management Support</h3>
+        <p>Expert coordination and guidance to navigate complex health systems effectively.</p>
+      </div>
+      <div class="card">
+        <h3>Membership Program</h3>
+        <p>Ongoing coaching and support for clients seeking structured, long-term health guidance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Who I Help Section -->
+<section id="who-i-help">
+  <div class="container">
+    <h2>Who I Help</h2>
+    <p style="text-align:center; max-width:700px; margin: auto; color:#555;">
+      I work with busy professionals, stressed executives, and anyone seeking a science-backed, integrative approach to optimize their health and well-being.
+    </p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 [Your Name] | Connect: <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">Email</a></p>
+</footer>
+
+</body>
+</html>
